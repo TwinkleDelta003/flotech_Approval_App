@@ -1,0 +1,4 @@
+#Fri Apr 05 17:27:07 IST 2024
+base.0=E\:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

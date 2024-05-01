@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\smart_auth\\intermediates\\merged_res\\release\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\0604a20eed3ccf7d5a80f18ca2673ef5\\transformed\\jetified-play-services-auth-20.4.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\smart_auth\\intermediates\\merged_res\\release\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\0604a20eed3ccf7d5a80f18ca2673ef5\\transformed\\jetified-play-services-auth-20.4.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\smart_auth\\intermediates\\merged_res\\release\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\0604a20eed3ccf7d5a80f18ca2673ef5\\transformed\\jetified-play-services-auth-20.4.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    }
+]

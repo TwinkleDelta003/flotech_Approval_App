@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\e61850c936c3274e87a8a1849f89a9bd\\transformed\\core-1.7.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\default_scroll_handle_left.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\66012d5b02e196120508303e08b7beb1\\transformed\\jetified-android-pdf-viewer-3.2.0-beta.3\\res\\drawable\\default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\default_scroll_handle_top.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\66012d5b02e196120508303e08b7beb1\\transformed\\jetified-android-pdf-viewer-3.2.0-beta.3\\res\\drawable\\default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\e61850c936c3274e87a8a1849f89a9bd\\transformed\\core-1.7.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\default_scroll_handle_bottom.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\66012d5b02e196120508303e08b7beb1\\transformed\\jetified-android-pdf-viewer-3.2.0-beta.3\\res\\drawable\\default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\e61850c936c3274e87a8a1849f89a9bd\\transformed\\core-1.7.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\default_scroll_handle_right.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\66012d5b02e196120508303e08b7beb1\\transformed\\jetified-android-pdf-viewer-3.2.0-beta.3\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\flutter_pdfview\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\e61850c936c3274e87a8a1849f89a9bd\\transformed\\core-1.7.0\\res\\drawable\\notification_icon_background.xml"
+    }
+]

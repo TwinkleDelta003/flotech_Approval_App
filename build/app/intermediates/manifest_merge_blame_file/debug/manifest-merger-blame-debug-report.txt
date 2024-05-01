@@ -1,0 +1,551 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.delta.devierp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:4:5-81
+16-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:4:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:5:5-76
+17-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:5:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:6:5-68
+18-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:6:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+19-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:7:5-79
+19-->E:\Organization Projects\Approval App\flotech-Approval-App\android\app\src\main\AndroidManifest.xml:7:22-76
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+20-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+21-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+22-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+23    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+23-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+23-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+24    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+24-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+24-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-80
+25-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-77
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Delta\.gradle\caches\transforms-3\198b8b11403dc0b0a7a10e121cd15618\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Delta\.gradle\caches\transforms-3\198b8b11403dc0b0a7a10e121cd15618\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:22-79
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\37af7a47a0457d7054c47f345c459700\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+27-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\37af7a47a0457d7054c47f345c459700\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+29
+30    <permission
+30-->[androidx.core:core:1.10.1] C:\Users\Delta\.gradle\caches\transforms-3\25a9428b7160d5697113d97292bd35d8\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+31        android:name="com.delta.devierp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.10.1] C:\Users\Delta\.gradle\caches\transforms-3\25a9428b7160d5697113d97292bd35d8\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.10.1] C:\Users\Delta\.gradle\caches\transforms-3\25a9428b7160d5697113d97292bd35d8\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.delta.devierp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.10.1] C:\Users\Delta\.gradle\caches\transforms-3\25a9428b7160d5697113d97292bd35d8\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.10.1] C:\Users\Delta\.gradle\caches\transforms-3\25a9428b7160d5697113d97292bd35d8\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+35
+36    <application
+37        android:name="android.app.Application"
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.10.1] C:\Users\Delta\.gradle\caches\transforms-3\25a9428b7160d5697113d97292bd35d8\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+41        android:label="Flotech iERP"
+42        android:usesCleartextTraffic="true" >
+43        <activity
+44            android:name="com.delta.flotechierp.MainActivity"
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46            android:exported="true"
+47            android:hardwareAccelerated="true"
+48            android:launchMode="singleTop"
+49            android:networkSecurityConfig="@xml/network_security_config"
+50            android:theme="@style/LaunchTheme"
+51            android:windowSoftInputMode="adjustResize" >
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+60                android:name="io.flutter.embedding.android.NormalTheme"
+61                android:resource="@style/NormalTheme" />
+62
+63            <intent-filter>
+64                <action android:name="android.intent.action.MAIN" />
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+74            android:name="flutterEmbedding"
+75            android:value="2" />
+76        <meta-data
+77            android:name="com.google.firebase.messaging.default_notification_channel_id"
+78            android:value="@strings/default_notification_channel_id" />
+79        <!-- ! This code for Android 13 Push Notification -->
+80        <receiver
+81            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+82            android:enabled="true"
+83            android:exported="false" >
+83-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+84            <intent-filter>
+85                <action android:name="android.intent.action.BOOT_COMPLETED" />
+85-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-79
+85-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-76
+86            </intent-filter>
+87
+88            <meta-data
+89                android:name="android.app.receiver_export"
+90                android:value="true" />
+91
+92            <intent-filter>
+92-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-29:29
+93                <action android:name="android.intent.action.BOOT_COMPLETED" />
+93-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-79
+93-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-76
+94                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+94-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-84
+94-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-81
+95                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+95-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-82
+95-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-79
+96                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+96-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+96-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+97            </intent-filter>
+98        </receiver>
+99        <!-- ! This code for Android 13 Push Notification -->
+100
+101        <service
+101-->[:firebase_crashlytics] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+102            android:name="com.google.firebase.components.ComponentDiscoveryService"
+102-->[:firebase_crashlytics] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+104            android:exported="false" >
+104-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Delta\.gradle\caches\transforms-3\009096bbef393e6d2ad16d826df1bc21\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:16:13-37
+105            <meta-data
+105-->[:firebase_crashlytics] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+106-->[:firebase_crashlytics] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-130
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_crashlytics] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+108            <meta-data
+108-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+109-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+111            <meta-data
+111-->[:firebase_core] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+112-->[:firebase_core] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:firebase_core] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Delta\.gradle\caches\transforms-3\009096bbef393e6d2ad16d826df1bc21\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:17:13-19:85
+115                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+115-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Delta\.gradle\caches\transforms-3\009096bbef393e6d2ad16d826df1bc21\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:18:17-115
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Delta\.gradle\caches\transforms-3\009096bbef393e6d2ad16d826df1bc21\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:19:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Delta\.gradle\caches\transforms-3\198b8b11403dc0b0a7a10e121cd15618\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+118                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+118-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Delta\.gradle\caches\transforms-3\198b8b11403dc0b0a7a10e121cd15618\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Delta\.gradle\caches\transforms-3\198b8b11403dc0b0a7a10e121cd15618\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\37af7a47a0457d7054c47f345c459700\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\37af7a47a0457d7054c47f345c459700\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\37af7a47a0457d7054c47f345c459700\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+124                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+124-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Delta\.gradle\caches\transforms-3\1dd04465c2fe62f13cf17fee04926d66\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+127-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Delta\.gradle\caches\transforms-3\1dd04465c2fe62f13cf17fee04926d66\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Delta\.gradle\caches\transforms-3\1dd04465c2fe62f13cf17fee04926d66\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Delta\.gradle\caches\transforms-3\b45fca8809b8dd567d9617da87c50b96\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+130                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+130-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Delta\.gradle\caches\transforms-3\b45fca8809b8dd567d9617da87c50b96\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Delta\.gradle\caches\transforms-3\b45fca8809b8dd567d9617da87c50b96\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+132        </service>
+133        <service
+133-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+134            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+134-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+135            android:exported="false"
+135-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+136            android:permission="android.permission.BIND_JOB_SERVICE" />
+136-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+137        <service
+137-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+138            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+138-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+139            android:exported="false" >
+139-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+140            <intent-filter>
+140-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+141                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+141-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+141-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+142            </intent-filter>
+143        </service>
+144
+145        <receiver
+145-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+146            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+146-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+147            android:exported="true"
+147-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+149            <intent-filter>
+149-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+150-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+151            </intent-filter>
+152        </receiver>
+153
+154        <provider
+154-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+155-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+156            android:authorities="com.delta.devierp.flutterfirebasemessaginginitprovider"
+156-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+157            android:exported="false"
+157-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+158            android:initOrder="99" />
+158-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+159        <provider
+159-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+160            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+160-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+161            android:authorities="com.delta.devierp.flutter.image_provider"
+161-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+162            android:exported="false"
+162-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+163            android:grantUriPermissions="true" >
+163-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+164            <meta-data
+164-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+165                android:name="android.support.FILE_PROVIDER_PATHS"
+165-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+166                android:resource="@xml/flutter_image_picker_file_paths" />
+166-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+167        </provider>
+168
+169        <receiver
+169-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:40
+170            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+170-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-91
+171            android:exported="false" />
+171-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+172        <receiver
+172-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:40
+173            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+173-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
+174            android:exported="false" />
+174-->[:flutter_local_notifications] E:\Organization Projects\Approval App\flotech-Approval-App\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+175
+176        <activity
+176-->[:url_launcher_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+177            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+177-->[:url_launcher_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+178            android:exported="false"
+178-->[:url_launcher_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+179            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+179-->[:url_launcher_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+180
+181        <provider
+181-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-22:20
+182            android:name="com.crazecoder.openfile.FileProvider"
+182-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-64
+183            android:authorities="com.delta.devierp.fileProvider.com.crazecoder.openfile"
+183-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-88
+184            android:exported="false"
+184-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+185            android:grantUriPermissions="true" >
+185-->[:open_file_safe] E:\Organization Projects\Approval App\flotech-Approval-App\build\open_file_safe\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-47
+186            <meta-data
+186-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+187                android:name="android.support.FILE_PROVIDER_PATHS"
+187-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+188                android:resource="@xml/filepaths" />
+188-->[:image_picker_android] E:\Organization Projects\Approval App\flotech-Approval-App\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+189        </provider>
+190
+191        <activity
+191-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+192            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+192-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+193            android:excludeFromRecents="true"
+193-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+196        <!--
+197            Service handling Google Sign-In user revocation. For apps that do not integrate with
+198            Google Sign-In, this service will never be started.
+199        -->
+200        <service
+200-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+201            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+201-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+202            android:exported="true"
+202-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+203            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+203-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+204            android:visibleToInstantApps="true" />
+204-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Delta\.gradle\caches\transforms-3\0604a20eed3ccf7d5a80f18ca2673ef5\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+205
+206        <receiver
+206-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+207            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+207-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+208            android:exported="true"
+208-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+209            android:permission="com.google.android.c2dm.permission.SEND" >
+209-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+210            <intent-filter>
+210-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+211                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+211-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+211-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+212            </intent-filter>
+213        </receiver>
+214        <!--
+215             FirebaseMessagingService performs security checks at runtime,
+216             but set to not exported to explicitly avoid allowing another app to call it.
+217        -->
+218        <service
+218-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+219            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+219-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+221            android:exported="false" >
+221-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Delta\.gradle\caches\transforms-3\8af32e37d17fa053fac51e03ea6167b3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+222            <intent-filter android:priority="-500" >
+222-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+223                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+223-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+223-->[:firebase_messaging] E:\Organization Projects\Approval App\flotech-Approval-App\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+224            </intent-filter>
+225        </service>
+226
+227        <provider
+227-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+228            android:name="com.google.firebase.provider.FirebaseInitProvider"
+228-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+229            android:authorities="com.delta.devierp.firebaseinitprovider"
+229-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+230            android:directBootAware="true"
+230-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+231            android:exported="false"
+231-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+232            android:initOrder="100" />
+232-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Delta\.gradle\caches\transforms-3\f4eb526ce6d9426026c5b5c261896ff6\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+233
+234        <receiver
+234-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+235            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+235-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+237            android:exported="false" >
+237-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+238        </receiver>
+239
+240        <service
+240-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+241            android:name="com.google.android.gms.measurement.AppMeasurementService"
+241-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+243            android:exported="false" />
+243-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+244        <service
+244-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+245            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+245-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+246            android:enabled="true"
+246-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+247            android:exported="false"
+247-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+248            android:permission="android.permission.BIND_JOB_SERVICE" />
+248-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Delta\.gradle\caches\transforms-3\441f2a6aabaf85e7cf3b799789831d12\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+249
+250        <activity
+250-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Delta\.gradle\caches\transforms-3\bcb33eba2e97854813b383f2d7daca65\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+251            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+251-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Delta\.gradle\caches\transforms-3\bcb33eba2e97854813b383f2d7daca65\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+252            android:exported="false"
+252-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Delta\.gradle\caches\transforms-3\bcb33eba2e97854813b383f2d7daca65\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+253-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Delta\.gradle\caches\transforms-3\bcb33eba2e97854813b383f2d7daca65\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+254
+255        <meta-data
+255-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Delta\.gradle\caches\transforms-3\c583bbc491cd7aa41ad699331c330a73\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+256            android:name="com.google.android.gms.version"
+256-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Delta\.gradle\caches\transforms-3\c583bbc491cd7aa41ad699331c330a73\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+257            android:value="@integer/google_play_services_version" />
+257-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Delta\.gradle\caches\transforms-3\c583bbc491cd7aa41ad699331c330a73\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+258
+259        <receiver
+259-->[ru.surfstudio.android:push:0.4.0] C:\Users\Delta\.gradle\caches\transforms-3\ce084cf8b3553bd78fa56642b5c528ef\transformed\jetified-push-0.4.0\AndroidManifest.xml:12:9-15:20
+260            android:name="ru.surfstudio.android.notification.ui.notification.NotificationClickEventReceiver"
+260-->[ru.surfstudio.android:push:0.4.0] C:\Users\Delta\.gradle\caches\transforms-3\ce084cf8b3553bd78fa56642b5c528ef\transformed\jetified-push-0.4.0\AndroidManifest.xml:13:13-109
+261            android:exported="false" >
+261-->[ru.surfstudio.android:push:0.4.0] C:\Users\Delta\.gradle\caches\transforms-3\ce084cf8b3553bd78fa56642b5c528ef\transformed\jetified-push-0.4.0\AndroidManifest.xml:14:13-37
+262        </receiver>
+263
+264        <uses-library
+264-->[androidx.window:window:1.0.0-beta04] C:\Users\Delta\.gradle\caches\transforms-3\1b7ff7d01b01d6291e22c282685c86c8\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+265            android:name="androidx.window.extensions"
+265-->[androidx.window:window:1.0.0-beta04] C:\Users\Delta\.gradle\caches\transforms-3\1b7ff7d01b01d6291e22c282685c86c8\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+266            android:required="false" />
+266-->[androidx.window:window:1.0.0-beta04] C:\Users\Delta\.gradle\caches\transforms-3\1b7ff7d01b01d6291e22c282685c86c8\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+267        <uses-library
+267-->[androidx.window:window:1.0.0-beta04] C:\Users\Delta\.gradle\caches\transforms-3\1b7ff7d01b01d6291e22c282685c86c8\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+268            android:name="androidx.window.sidecar"
+268-->[androidx.window:window:1.0.0-beta04] C:\Users\Delta\.gradle\caches\transforms-3\1b7ff7d01b01d6291e22c282685c86c8\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+269            android:required="false" />
+269-->[androidx.window:window:1.0.0-beta04] C:\Users\Delta\.gradle\caches\transforms-3\1b7ff7d01b01d6291e22c282685c86c8\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+270
+271        <service
+271-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\626b48ae8e5dfba16fd7ed4962a04381\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+272            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+272-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\626b48ae8e5dfba16fd7ed4962a04381\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+273            android:exported="false" >
+273-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\626b48ae8e5dfba16fd7ed4962a04381\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+274            <meta-data
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\626b48ae8e5dfba16fd7ed4962a04381\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+275                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+275-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\626b48ae8e5dfba16fd7ed4962a04381\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+276                android:value="cct" />
+276-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\626b48ae8e5dfba16fd7ed4962a04381\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+277        </service>
+278        <service
+278-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+279            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+279-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+280            android:exported="false"
+280-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+281            android:permission="android.permission.BIND_JOB_SERVICE" >
+281-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+282        </service>
+283
+284        <receiver
+284-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+285            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+285-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+286            android:exported="false" />
+286-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Delta\.gradle\caches\transforms-3\cb60365f84b1445bb75cf3ead686117b\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+287
+288        <provider
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+289            android:name="androidx.startup.InitializationProvider"
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+290            android:authorities="com.delta.devierp.androidx-startup"
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+291            android:exported="false" >
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+292            <meta-data
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+293                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+294                android:value="androidx.startup" />
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+295        </provider>
+296
+297        <receiver
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+298            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+298-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+299            android:directBootAware="false"
+299-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+300            android:enabled="true"
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+301            android:exported="true"
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+302            android:permission="android.permission.DUMP" >
+302-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+303            <intent-filter>
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+304                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+304-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+304-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+305            </intent-filter>
+306            <intent-filter>
+306-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+307                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+307-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+307-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+308            </intent-filter>
+309            <intent-filter>
+309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+310                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+310-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+310-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+311            </intent-filter>
+312            <intent-filter>
+312-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+313                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+313-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+313-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Delta\.gradle\caches\transforms-3\3d2df147d73656c5c3ec95940d898858\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+314            </intent-filter>
+315        </receiver>
+316
+317        <provider
+317-->[com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\Delta\.gradle\caches\transforms-3\3ae28c2b34890fe29293ec2d966d29aa\transformed\jetified-crashlytics-2.9.6\AndroidManifest.xml:12:9-16:38
+318            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+318-->[com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\Delta\.gradle\caches\transforms-3\3ae28c2b34890fe29293ec2d966d29aa\transformed\jetified-crashlytics-2.9.6\AndroidManifest.xml:13:13-75
+319            android:authorities="com.delta.devierp.crashlyticsinitprovider"
+319-->[com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\Delta\.gradle\caches\transforms-3\3ae28c2b34890fe29293ec2d966d29aa\transformed\jetified-crashlytics-2.9.6\AndroidManifest.xml:14:13-75
+320            android:exported="false"
+320-->[com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\Delta\.gradle\caches\transforms-3\3ae28c2b34890fe29293ec2d966d29aa\transformed\jetified-crashlytics-2.9.6\AndroidManifest.xml:15:13-37
+321            android:initOrder="90" />
+321-->[com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\Delta\.gradle\caches\transforms-3\3ae28c2b34890fe29293ec2d966d29aa\transformed\jetified-crashlytics-2.9.6\AndroidManifest.xml:16:13-35
+322    </application>
+323
+324</manifest>

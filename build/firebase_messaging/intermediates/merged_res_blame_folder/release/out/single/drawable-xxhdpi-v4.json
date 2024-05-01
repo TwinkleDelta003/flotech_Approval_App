@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_messaging\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    }
+]

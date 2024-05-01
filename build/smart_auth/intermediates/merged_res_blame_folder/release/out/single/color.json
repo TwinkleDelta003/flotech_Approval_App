@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\smart_auth\\intermediates\\merged_res\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\smart_auth\\intermediates\\merged_res\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\smart_auth\\intermediates\\merged_res\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\bcb33eba2e97854813b383f2d7daca65\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    }
+]

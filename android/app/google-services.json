@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "140792545779",
+    "project_id": "unnati-ierp-2",
+    "storage_bucket": "unnati-ierp-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140792545779:android:2205aa0ac0357785025286",
+        "android_client_info": {
+          "package_name": "com.delta.devierp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140792545779-in2d6hrp189d9jivofn01h4il8h5oots.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeu08OcdXuZeNL1ArhrB7ZgqOQuGWeZow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140792545779-in2d6hrp189d9jivofn01h4il8h5oots.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140792545779:android:bdd96313355c4dfe025286",
+        "android_client_info": {
+          "package_name": "com.delta.flotechierp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140792545779-in2d6hrp189d9jivofn01h4il8h5oots.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeu08OcdXuZeNL1ArhrB7ZgqOQuGWeZow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140792545779-in2d6hrp189d9jivofn01h4il8h5oots.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

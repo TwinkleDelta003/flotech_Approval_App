@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-si\\values-si.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\c583bbc491cd7aa41ad699331c330a73\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "138",
+                        "endOffsets": "189"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "194",
+                        "endColumns": "100",
+                        "endOffsets": "290"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_core\\intermediates\\merged_res\\release\\values-si\\values-si.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\c583bbc491cd7aa41ad699331c330a73\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "138",
+                        "endOffsets": "189"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "194",
+                        "endColumns": "100",
+                        "endOffsets": "290"
+                    }
+                }
+            ]
+        }
+    ]
+}

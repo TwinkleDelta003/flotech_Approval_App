@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\Organization Projects\\Approval App\\flotech-Approval-App\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Delta\\.gradle\\caches\\transforms-3\\46b91257f189f87c14c12b0af028618b\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    }
+]
